@@ -19,9 +19,6 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "projek pernada PAM"
-include(":app")
-include(":app")
-include(":app")
+rootProject.name = "pertemuan 2 basic compose"
 include(":app")
  

@@ -4,11 +4,11 @@ plugins {
 }
 
 android {
-    namespace = "com.example.projekpernadapam"
+    namespace = "com.example.pertemuan2basiccompose"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.example.projekpernadapam"
+        applicationId = "com.example.pertemuan2basiccompose"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -52,8 +52,6 @@ android {
 dependencies {
 
     implementation(libs.androidx.core.ktx)
-    implementation(libs.androidx.appcompat)
-    implementation(libs.material)
     implementation(libs.androidx.lifecycle.runtime.ktx)
     implementation(libs.androidx.activity.compose)
     implementation(platform(libs.androidx.compose.bom))
